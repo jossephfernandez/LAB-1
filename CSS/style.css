@@ -28,3 +28,38 @@
     color: blue;
 }
 /* <-- Cierre -->*/
+
+/* <-- hero --*/
+
+.hero{
+    background-image: url(../IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.padre{
+    position: relative;
+}
+
+.presentacion{
+    color: white;
+    padding-top: 5em;
+}
+.btn{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 10;
+    border-radius: 20px;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba (0, 0, 0);
+}
+/* <-- cierre hero --*/
+
